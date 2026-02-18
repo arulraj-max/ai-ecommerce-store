@@ -1,0 +1,76 @@
+/* Modern Dark Mode Theme */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    border-color: #60a5fa;
+}
+
+.product-card h3 {
+    color: #60a5fa;
+    margin-top: 0;
+}
+
+button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+.product-card form {
+    margin-top: 15px;
+    border-top: 1px solid #334155;
+    padding-top: 10px;
+}
+/* This targets the new class name we just created */
+.btn-delete {
+    width: 100%;
+    background-color: #991b1b; /* Dark Red */
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Makes the color change smooth */
+}
+
+/* This handles the hover effect */
+.btn-delete:hover {
+    background-color: #ef4444; /* Brighter Red when you point at it */
+}
