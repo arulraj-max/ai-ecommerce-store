@@ -2,6 +2,8 @@
 
 A FastAPI-based product management dashboard designed for an AI-powered e-commerce store. 
 
+![Admin Dashboard](screenshots/dashboard.png)
+
 ## 🛠️ Tech Stack
 - *Backend:* FastAPI (Python 3.13)
 - *Database:* SQLite with SQLAlchemy ORM
